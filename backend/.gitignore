@@ -1,0 +1,7 @@
+# Django #
+
+# Environment Variables
+*.env
+
+#Virtual Environment
+env/
