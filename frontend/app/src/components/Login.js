@@ -8,7 +8,7 @@ const LOGIN_URL = "/login/";
 const Login = () => {
   const navigate = useNavigate();
 
-  const { auth, setAuth } = useAuth();
+  const { setAuth } = useAuth();
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");

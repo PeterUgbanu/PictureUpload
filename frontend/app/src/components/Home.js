@@ -77,7 +77,7 @@ const Home = () => {
         },
       });
       window.location.reload();
-      console.log(response?.data);
+      // console.log(response?.data);
       setRefreshImages(!refreshImages);
       setAddImage(!addImage);
       setPostImage(null);
